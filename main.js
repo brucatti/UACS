@@ -27,7 +27,6 @@ app.get('/get-tinh', function(req, res){
 app.post('/get-huyen', function(req,res){
 	console.log ("/get-huyen");
 	var msTinh = req.body.msTinh;
-	console.log(msTinh);
 	res.header(responseHeaders);
 	SQL.getHuyen(msTinh,function(err,result){
 		res.send(result);
@@ -44,7 +43,6 @@ app.post('/get-truong',function(req,res){
 		res.send(result);
 		res.end();
 	});
-});
-
+}); 
 
 console.log('Server started! At http://localhost:' + port);
