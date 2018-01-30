@@ -45,4 +45,13 @@ app.post('/get-truong',function(req,res){
 	});
 }); 
 
+app.post('/get-khoi-diem',function(req,res){
+	console.log("/get-khoi-diem");
+	res.header(responseHeaders);
+	SQL.getMajorPoint(req.body,function(err,result){
+		res.send(result);
+		res.end();
+	});
+});
+
 console.log('Server started! At http://localhost:' + port);
