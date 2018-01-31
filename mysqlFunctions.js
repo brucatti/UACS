@@ -47,9 +47,9 @@ exports.getMajorPoint = function getMajorPoint(data,callback){
 			var prop;		
 			for (var i=1;i<=57;i++){
 				prop = 'Subject_' + i;
-				if (Object.getOwnPropertyDescriptor(row, prop).value == "1" && (!!Object.getOwnPropertyDescriptor(fakeData, prop)))
+				if (Object.getOwnPropertyDescriptor(row, prop).value == "1" && (!!Object.getOwnPropertyDescriptor(data, prop)))
 				{
-					sum +=Object.getOwnPropertyDescriptor(fakeData, prop).value * Object.getOwnPropertyDescriptor(row, prop).value;
+					sum +=Object.getOwnPropertyDescriptor(data, prop).value * Object.getOwnPropertyDescriptor(row, prop).value;
 					numOfSubject ++;
 				}
 			}
