@@ -71,25 +71,21 @@ exports.getMajorPoint = function getMajorPoint(data,callback){
 function addSectorPoint(msTinh,msHuyen,msTruong,result,callback){
 	con.query("SELECT KhuVuc FROM uacs.thpt Where msTinh = "+msTinh+" and msHuyen = "+msHuyen+" and msTruong = " + msTruong,function(err,rows){
 		if (rows[0].KhuVuc == "KV1"){
-			console.log("KV1");
 			result.forEach(function(row){
 				row.point += 1.5;
 			});
 		}
 		else if (rows[0].KhuVuc == "KV2"){
-			console.log("KV2");
 			result.forEach(function(row){
 				row.point += 0.5;
 			});
 		}
 		else if (rows[0].KhuVuc == "KV2NT"){
-			console.log("KV2NT");
 			result.forEach(function(row){
 				row.point += 1;
 			});
 		}
 		else {
-			console.log("KV3");
 		}
 		callback(null,result);
 	});
