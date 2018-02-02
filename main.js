@@ -6,8 +6,15 @@ var port = 8080;
 
 app.listen(port);
 
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    next();
+});
 var responseHeaders = {  
-    "access-control-allow-origin": "*",
+    "access-control-allow-origin": "http://localhost:8080",
     "Content-Type": "application/json"
 };
 
@@ -17,7 +24,6 @@ app.use(bodyParser.urlencoded({	extended: true })); // support encoded bodies
 
 app.get('/get-tinh', function(req, res){
 	console.log ("/get-tinh");
-	res.header(responseHeaders);
 	SQL.getTinh(function(err,result){
 		res.send(result);
 		res.end();
@@ -27,7 +33,6 @@ app.get('/get-tinh', function(req, res){
 app.post('/get-huyen', function(req,res){
 	console.log ("/get-huyen");
 	var msTinh = req.body.msTinh;
-	res.header(responseHeaders);
 	SQL.getHuyen(msTinh,function(err,result){
 		res.send(result);
 		res.end();
@@ -38,7 +43,6 @@ app.post('/get-truong',function(req,res){
 	console.log ("/get-truong");
 	var msTinh = req.body.msTinh;
 	var msHuyen = req.body.msHuyen;
-	res.header(responseHeaders);
 	SQL.getTruong(msTinh,msHuyen,function(err,result){
 		res.send(result);
 		res.end();
@@ -47,7 +51,6 @@ app.post('/get-truong',function(req,res){
 
 app.post('/get-khoi-diem',function(req,res){
 	console.log("/get-khoi-diem");
-	res.header(responseHeaders);
 	SQL.getMajorPoint(req.body,function(err,result){
 		res.send(result);
 		res.end();
