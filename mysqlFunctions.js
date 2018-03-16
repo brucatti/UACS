@@ -39,12 +39,17 @@ exports.getTruong = function getTruong(msTinh,msHuyen,callback){
 exports.getMajorPoint = function getMajorPoint(data,callback){
 	con.query("SELECT * FROM uacs.major;",function(err,rows){
 		var result = [];
-		
+		var prop;
+		prop = "Subject_" + data.Language_id;
+		Object.defineProperty(data,prop,{
+			value: data.Language_value,
+			writable: false
+		});
+		var count = 1;
 		rows.forEach(function(row){
 			var sum = 0;
-			
-			var numOfSubject=0;
-			var prop;		
+
+			var numOfSubject=0;	
 			for (var i=1;i<=57;i++){
 				prop = 'Subject_' + i;
 				if (Object.getOwnPropertyDescriptor(row, prop).value == "1" && (!!Object.getOwnPropertyDescriptor(data, prop)))
@@ -56,9 +61,11 @@ exports.getMajorPoint = function getMajorPoint(data,callback){
 			if (numOfSubject == 3) {
 				//	console.log(Object.getOwnPropertyDescriptor(row, 'major').value+ " : "+ sum);
 				result.push({
+					key : count,
 					major : Object.getOwnPropertyDescriptor(row, 'major').value,
 					point : sum
 				});
+				count = count + 1;
 			}
 		});
 		addSectorPoint(data.msTinh,data.msHuyen,data.msTruong,result,function(err,result){

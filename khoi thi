@@ -1,90 +1,90 @@
-A00: Toán, Vật lí, Hóa học
-A01: Toán, Vật lí, Tiếng Anh
+A00: Toán, Vật lý, Hóa học
+A01: Toán, Vật lý, Tiếng Anh
 B00: Toán, Hóa học, Sinh học
-C00: Ngữ văn, Lịch sử, Địa lí
+C00: Ngữ văn, Lịch sử, Địa lý
 D01: Ngữ văn, Toán, Tiếng Anh
 D02: Ngữ văn, Toán, Tiếng Nga
 D03: Ngữ văn, Toán, Tiếng Pháp
 D04: Ngữ văn, Toán, Tiếng Trung
 D05: Ngữ văn, Toán, Tiếng Đức
 D06: Ngữ văn, Toán, Tiếng Nhật
-A02: Toán, Vật lí, Sinh học
-A03: Toán, Vật lí, Lịch sử
-A04: Toán, Vật lí, Địa lí
+A02: Toán, Vật lý, Sinh học
+A03: Toán, Vật lý, Lịch sử
+A04: Toán, Vật lý, Địa lý
 A05: Toán, Hóa học, Lịch sử
-A06: Toán, Hóa học, Địa lí
-A07: Toán, Lịch sử, Địa lí
+A06: Toán, Hóa học, Địa lý
+A07: Toán, Lịch sử, Địa lý
 A08: Toán, Lịch sử, Giáo dục công dân
 A09: Toán, Địa lý, Giáo dục công dân
 A10: Toán, Lý, Giáo dục công dân
 A11: Toán, Hóa, Giáo dục công dân
 A12: Toán, Khoa học tự nhiên, KH xã hội
-A14: Toán, Khoa học tự nhiên, Địa lí
+A14: Toán, Khoa học tự nhiên, Địa lý
 A15: Toán, KH tự nhiên, Giáo dục công dân
 A16: Toán, Khoa học tự nhiên, Ngữ văn
 A17: Toán, Vật lý, Khoa học xã hội
 A18: Toán, Hoá học, Khoa học xã hội
 B01: Toán, Sinh học, Lịch sử
-B02: Toán, Sinh học, Địa lí
+B02: Toán, Sinh học, Địa lý
 B03: Toán, Sinh học, Ngữ văn
 B04: Toán, Sinh học, Giáo dục công dân
 B05: Toán, Sinh học, Khoa học xã hội
 B08: Toán, Sinh học, Tiếng Anh
-C01: Ngữ văn, Toán, Vật lí
+C01: Ngữ văn, Toán, Vật lý
 C02: Ngữ văn, Toán, Hóa học
 C03: Ngữ văn, Toán, Lịch sử
-C04: Ngữ văn, Toán, Địa lí
-C05: Ngữ văn, Vật lí, Hóa học
-C06: Ngữ văn, Vật lí, Sinh học
-C07: Ngữ văn, Vật lí, Lịch sử
+C04: Ngữ văn, Toán, Địa lý
+C05: Ngữ văn, Vật lý, Hóa học
+C06: Ngữ văn, Vật lý, Sinh học
+C07: Ngữ văn, Vật lý, Lịch sử
 C08: Ngữ văn, Hóa học, Sinh
-C09: Ngữ văn, Vật lí, Địa lí
+C09: Ngữ văn, Vật lý, Địa lý
 C10: Ngữ văn, Hóa học, Lịch sử
 C12: Ngữ văn, Sinh học, Lịch sử
 C13: Ngữ văn, Sinh học, Địa
 C14: Ngữ văn, Toán, Giáo dục công dân
 C15: Ngữ văn, Toán, Khoa học xã hội
-C16: Ngữ văn, Vật lí, Giáo dục công dân
+C16: Ngữ văn, Vật lý, Giáo dục công dân
 C17: Ngữ văn, Hóa học, Giáo dục công dân
 C19 Ngữ văn, Lịch sử, Giáo dục công dân
-C20: Ngữ văn, Địa lí, Giáo dục công dân
+C20: Ngữ văn, Địa lý, Giáo dục công dân
 D07: Toán, Hóa học, Tiếng Anh
 D08: Toán, Sinh học, Tiếng Anh
 D09: Toán, Lịch sử, Tiếng Anh
-D10: Toán, Địa lí, Tiếng Anh
-D11: Ngữ văn, Vật lí, Tiếng Anh
+D10: Toán, Địa lý, Tiếng Anh
+D11: Ngữ văn, Vật lý, Tiếng Anh
 D12: Ngữ văn, Hóa học, Tiếng Anh
 D13: Ngữ văn, Sinh học, Tiếng Anh
 D14: Ngữ văn, Lịch sử, Tiếng Anh
-D15: Ngữ văn, Địa lí, Tiếng Anh
-D16: Toán, Địa lí, Tiếng Đức
-D17: Toán, Địa lí, Tiếng Nga
-D18: Toán, Địa lí, Tiếng Nhật
-D19: Toán, Địa lí, Tiếng Pháp
-D20: Toán, Địa lí, Tiếng Trung
+D15: Ngữ văn, Địa lý, Tiếng Anh
+D16: Toán, Địa lý, Tiếng Đức
+D17: Toán, Địa lý, Tiếng Nga
+D18: Toán, Địa lý, Tiếng Nhật
+D19: Toán, Địa lý, Tiếng Pháp
+D20: Toán, Địa lý, Tiếng Trung
 D21: Toán, Hóa học, Tiếng Đức
 D22: Toán, Hóa học, Tiếng Nga
 D23: Toán, Hóa học, Tiếng Nhật
 D24: Toán, Hóa học, Tiếng Pháp
 D25: Toán, Hóa học, Tiếng Trung
-D26: Toán, Vật lí, Tiếng Đức
-D27: Toán, Vật lí, Tiếng Nga
-D28: Toán, Vật lí, Tiếng Nhật
-D29: Toán, Vật lí, Tiếng Pháp
-D30: Toán, Vật lí, Tiếng Trung
+D26: Toán, Vật lý, Tiếng Đức
+D27: Toán, Vật lý, Tiếng Nga
+D28: Toán, Vật lý, Tiếng Nhật
+D29: Toán, Vật lý, Tiếng Pháp
+D30: Toán, Vật lý, Tiếng Trung
 D31: Toán, Sinh học, Tiếng Đức
 D32: Toán, Sinh học, Tiếng Nga
 D33: Toán, Sinh học, Tiếng Nhật
 D34: Toán, Sinh học, Tiếng Pháp
 D35: Toán, Sinh học, Tiếng Trung
-D41: Ngữ văn, Địa lí, Tiếng Đức
-D42: Ngữ văn, Địa lí, Tiếng Nga
-D43: Ngữ văn, Địa lí, Tiếng Nhật
-D44: Ngữ văn, Địa lí, Tiếng Pháp
-D45: Ngữ văn, Địa lí, Tiếng Trung
-D52: Ngữ văn, Vật lí, Tiếng Nga
-D54: Ngữ văn, Vật lí, Tiếng Pháp
-D55: Ngữ văn, Vật lí, Tiếng Trung
+D41: Ngữ văn, Địa lý, Tiếng Đức
+D42: Ngữ văn, Địa lý, Tiếng Nga
+D43: Ngữ văn, Địa lý, Tiếng Nhật
+D44: Ngữ văn, Địa lý, Tiếng Pháp
+D45: Ngữ văn, Địa lý, Tiếng Trung
+D52: Ngữ văn, Vật lý, Tiếng Nga
+D54: Ngữ văn, Vật lý, Tiếng Pháp
+D55: Ngữ văn, Vật lý, Tiếng Trung
 D61: Ngữ văn, Lịch sử, Tiếng Đức
 D62: Ngữ văn, Lịch sử, Tiếng Nga
 D63: Ngữ văn, Lịch sử, Tiếng Nhật
@@ -117,7 +117,7 @@ D92: Toán, Khoa học tự nhiên, Tiếng Đức
 D93: Toán, Khoa học tự nhiên, Tiếng Nga
 D94: Toán, Khoa học tự nhiên, Tiếng Nhật
 D95: Toán, Khoa học tự nhiên, Tiếng Trung
-D96: Toán, Khoa học xã hội, Anh
+D96: Toán, Khoa học xã hội, Tiếng Anh
 D97: Toán, Khoa học xã hội, Tiếng Pháp
 D98: Toán, Khoa học xã hội, Tiếng Đức
 D99: Toán, Khoa học xã hội, Tiếng Nga
@@ -176,12 +176,12 @@ T02: Ngữ văn, Sinh, Năng khiếu TDTT
 T03: Ngữ văn, Địa, Năng khiếu TDTT
 T04: Toán, Lý, Năng khiếu TDTT
 T05: Ngữ văn, Giáo dục công dân, Năng kiếu
-V00: Toán, Vật lí, Vẽ Hình họa mỹ thuật
+V00: Toán, Vật lý, Vẽ Hình họa mỹ thuật
 V01: Toán, Ngữ văn, Vẽ Hình họa mỹ thuật
 V02: Vẽ mỹ thuật, Toán, Tiếng Anh
 V03: Vẽ mỹ thuật, Toán, Hóa
-V05: Ngữ văn, Vật lí, Vẽ mỹ thuật
-V06: Toán, Địa lí, Vẽ mỹ thuật
+V05: Ngữ văn, Vật lý, Vẽ mỹ thuật
+V06: Toán, Địa lý, Vẽ mỹ thuật
 V07: Toán, tiếng Đức, Vẽ mỹ thuật
 V08: Toán, tiếng Nga, Vẽ mỹ thuật
 V09: Toán, tiếng Nhật, Vẽ mỹ thuật

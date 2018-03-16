@@ -1,5 +1,5 @@
-// grab the packages we need
 var express = require('express');
+var bodyParser = require('body-parser');
 var SQL = require('./mysqlFunctions.js');
 var app = express();
 var port = 8080;
@@ -13,12 +13,12 @@ app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Credentials', true);
     next();
 });
+
 var responseHeaders = {  
     "access-control-allow-origin": "http://localhost:8080",
     "Content-Type": "application/json"
 };
 
-var bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({	extended: true })); // support encoded bodies
 
@@ -51,6 +51,7 @@ app.post('/get-truong',function(req,res){
 
 app.post('/get-khoi-diem',function(req,res){
 	console.log("/get-khoi-diem");
+	console.log(req.body);
 	SQL.getMajorPoint(req.body,function(err,result){
 		res.send(result);
 		res.end();
